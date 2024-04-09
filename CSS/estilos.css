@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;400;600;700&display=swap');
+
+/* Estilos Generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Encabezado */
+header {
+  background: #19a8cc;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #063c6e 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* Navegación */
+nav {
+  float: right;
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Showcase */
+.showcase {
+  background-color: #0779e4;
+  color: #ffffff;
+  min-height: 300px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.showcase h1 {
+  font-size: 55px;
+  margin-top: 0;
+}
+
+/* Sección de Información */
+.info {
+  line-height: 1.5em;
+  font-size: 18px;
+  background: #e4e4e4;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Tarjetas para Criptomonedas */
+.crypto-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.crypto-card h2 {
+  color: #333;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+
+  nav, .showcase, .info, footer {
+      text-align: center;
+  }
+
+  nav a {
+      display: block;
+      margin: 10px 0;
+  }
+}
